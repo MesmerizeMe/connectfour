@@ -25,7 +25,7 @@ void init(){
 	
 	// Setting every element of board to 0 except the first row:
 	int i , j;
-	for(i=1; i < x ; i++)
+	for(i=1; i < x ; i++) //hi
 		for(j=0; j < y ; j++)
 			board[i][j] = 0;
 			
